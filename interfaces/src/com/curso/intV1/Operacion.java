@@ -1,7 +1,7 @@
 package com.curso.intV1;
 
-public interface Operacion {
-	
+interface Operacion {
+		
 	int ejecuta();
 
 }

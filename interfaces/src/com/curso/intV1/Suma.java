@@ -1,6 +1,6 @@
 package com.curso.intV1;
 
-public class Suma implements Operacion {
+public class Suma implements Operacion{
 	
 	int x;
 	int y;
