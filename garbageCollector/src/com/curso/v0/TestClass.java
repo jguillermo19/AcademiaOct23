@@ -1,10 +1,15 @@
 package com.curso.v0;
 
-
+import java.util.ArrayList;
+import java.util.List;
 
 public class TestClass {
 	
-	public class MyClass {
+	MyClass mc;
+	
+	//List<TestClass> ltc = new ArrayList<>();
+	
+	private class MyClass {
 	}
 	
 	MyClass getMyClassObject() {
@@ -16,7 +21,7 @@ public class TestClass {
 		TestClass tc = new TestClass(); // 3
 		MyClass x = tc.getMyClassObject(); // 4
 		System.out.println("got myclass object"); // 5
-		x = new MyClass(); // 6
+		x = new TestClass().new MyClass(); // 6
 		System.out.println("done"); // 7
 	}
 }
