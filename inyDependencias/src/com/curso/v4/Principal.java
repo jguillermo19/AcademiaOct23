@@ -16,6 +16,11 @@ public class Principal {
 		Becario b3 = new Becario("Epeneto",18);
 		Inyector.inyectarComputadora(b3,'M');
 		b3.prenderComputadora();
+		System.out.println("*****************");
+		Inyector.inyectarComputadora(b3, 'W');
+		b3.prenderComputadora();
+
+		
 	
 	}
 
