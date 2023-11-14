@@ -1,0 +1,21 @@
+Temario Accenture
+14 Noviembre 
+
+Associate (OCA 8)
+1. Conceptos Básicos de Java
+2. Variables y Tipos de Datos
+3. Constructores y Clases
+4. Excepciones
+5. Arrays
+9. Fecha y Hora en Java
+11. Clases y Objetos Estáticos
+12. Buenas Prácticas de Programación
+
+Professional (OCP 8)
+5. Colecciones and Generics
+6. Lambda Expressions *
+7. Manejo de Recursos y Autocierre
+   (TryWithResource and AutoCloseable)
+8. Java Streams
+10. JDBC (Java Database Connectivity) *
+
