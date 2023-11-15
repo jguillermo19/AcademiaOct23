@@ -1,6 +1,6 @@
 package com.curso.v2;
 
-import java.util.function.BiConsumer;
+import java.util.function.Consumer;
 
 public class Principal {
 
@@ -9,11 +9,11 @@ public class Principal {
 		Mecanico instanciaMec = new Mecanico();
 		Carro carro5 = new Carro();
 		carro5.id = 5;
-		carro5.color = "Blue";
+		carro5.color = "Red";
 		
-		BiConsumer<Mecanico,Carro> biCons = Mecanico::arreglar;
+		Consumer<Carro> cons = instanciaMec::arreglar;
 		
-		biCons.accept(instanciaMec, carro5);
+		cons.accept(carro5);
 		
 	}
 }

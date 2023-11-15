@@ -1,17 +1,18 @@
-package com.curso.v2;
+package com.curso.v1;
 
 import java.util.function.BiConsumer;
 
 public class Principal {
 
 	public static void main(String[] args) {
-		
+
 		Mecanico instanciaMec = new Mecanico();
 		Carro carro5 = new Carro();
 		carro5.id = 5;
-		carro5.color = "Blue";
+		carro5.color = "Yellow";
 		
-		BiConsumer<Mecanico,Carro> biCons = Mecanico::arreglar;
+		BiConsumer<Mecanico,Carro> biCons = 
+				(objMec, car)-> objMec.arreglar(car);
 		
 		biCons.accept(instanciaMec, carro5);
 		
