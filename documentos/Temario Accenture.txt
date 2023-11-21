@@ -12,10 +12,10 @@ Associate (OCA 8)
 12. Buenas Prácticas de Programación
 
 Professional (OCP 8)
-5. Colecciones and Generics
-6. Lambda Expressions *
-7. Manejo de Recursos y Autocierre
+5. Colecciones and Generics *3 (Semana 5)
+6. Lambda Expressions 
+7. Manejo de Recursos y Autocierre (Semana 6)
    (TryWithResource and AutoCloseable)
-8. Java Streams
-10. JDBC (Java Database Connectivity) *
+8. Java Streams *3 (Semana 5)
+10. JDBC (Java Database Connectivity) *3 (Semana 5)
 
